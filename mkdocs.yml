@@ -3,13 +3,39 @@ site_url: https://sitename.example
 repo_name: openfoam
 repo_url: https://github.com/ItsAymn/openfoam
 edit_uri: edit/main/docs/
+copyright: OpenFOAM &trade; | Made By Ayman
 
-copyright: OpenFOAM &trade; | Made By <a href='https://shorturl.at/KagV4' target='_blank' class='cauthor'>Ayman</a>
+extra:
+  generator: true
+  version:
+    default: stable
+  homepage: /openfoam/
 
+  # Socials
+  social:
+    - icon: fontawesome/brands/gitkraken
+      link: https://github.com/ItsAymn
 
 theme:
+  custom_dir: overrides
   name: material #dracula
-
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - announce.dismiss
+    - content.action.edit
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - header.autohide
+  
   # Color Scheme
   palette:
     # Dark Mode
@@ -41,20 +67,94 @@ theme:
     edit: material/pencil
     view: material/eye
   favicon: assets/images/OpenFOAM55x55.png
-  logo: assets/images/OpenFOAM55x55.png
+  logo: assets/images/OpenFOAM55x55.png  
 
-  # Features
-  features:
-    - header.autohide
+extra_css:
+  - assets/stylesheets/style.css
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - extra
+  - smarty
+  - toc:
+      permalink: true
+      title: <b>Table Of Contents</b>
+  - admonition
+  - attr_list
+  - abbr
+  - sane_lists
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - md_in_html
+  - footnotes
+  - tables
 
-extra:
-  generator: true
-  version:
-    default: stable
-  homepage: /openfoam/
+plugins:
+  - search
+  - awesome-pages:
+      collapse_single_pages: true
+      strict: true
+  - meta-descriptions
+  - tags
+  - mkdocs-video
+  - markmap
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+      fallback_to_build_date: false
+      strict: !ENV [ ENABLE_STRICT_GIT_REVISION_DATE, false ]
+      enabled: !ENV [ ENABLE_GIT_REVISION_DATE, false ]
+  - minify:
+      minify_html: !ENV [ ENABLE_MINIFY, false ]
+      minify_js: !ENV [ ENABLE_MINIFY, false ]
+      minify_css: !ENV [ ENABLE_MINIFY, false ]
+      htmlmin_opts:
+        remove_comments: !ENV [ ENABLE_REMOVE_COMMENTS, false ]
+      cache_safe: true
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: fade
+      slide_effect: fade
+      width: auto
+      height: auto
+      draggable: false
+      auto_caption: true
+      caption_position: bottom
+  - git-authors:
+      show_email_address: false
+      sort_authors_by: contribution
+      fallback_to_empty: true
+      show_contribution: true
+      strict: !ENV [ ENABLE_STRICT_GIT_AUTHORS, false ]
+      enabled: !ENV [ ENABLE_GIT_AUTHORS, false ]
 
-  # Socials
-  social:
-    - icon: fontawesome/brands/gitkraken
-      link: https://github.com/ItsAymn
+extra_javascript:
+  - assests/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
