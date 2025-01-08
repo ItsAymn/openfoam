@@ -1,0 +1,31 @@
+name: Deploy to Github Pages
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      ENABLE_STRICT: true
+      ENABLE_MINIFY: true
+      ENABLE_REMOVE_COMMENTS: true
+      ENABLE_GIT_AUTHORS: true
+      ENABLE_GIT_COMMITTERS: true
+      ENABLE_GIT_REVISION_DATE: true
+      ENABLE_STRICT_GIT_AUTHORS: true
+      ENABLE_STRICT_GIT_REVISION_DATE: true
+      ENABLE_OFFLINE: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: mkdocs
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v2
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: ".python-version"
+      - run: uv sync
+      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - run: uv run mkdocs gh-deploy

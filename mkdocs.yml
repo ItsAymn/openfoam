@@ -1,0 +1,60 @@
+site_name: OpenFOAM Docs
+site_url: https://sitename.example
+repo_name: openfoam
+repo_url: https://github.com/ItsAymn/openfoam
+edit_uri: edit/main/docs/
+
+copyright: OpenFOAM &trade; | Made By <a href='https://shorturl.at/KagV4' target='_blank' class='cauthor'>Ayman</a>
+
+
+theme:
+  name: material #dracula
+
+  # Color Scheme
+  palette:
+    # Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: black
+      accent: orange
+
+    # Light Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: black
+      accent: orange
+  
+  # Font
+  font:
+    text: Nunito Sans
+    code: Red Hat Mono
+
+  # Icon
+  icon:
+    repo: fontawesome/brands/gitkraken
+    edit: material/pencil
+    view: material/eye
+  favicon: assets/images/OpenFOAM55x55.png
+  logo: assets/images/OpenFOAM55x55.png
+
+  # Features
+  features:
+    - header.autohide
+
+
+extra:
+  generator: true
+  version:
+    default: stable
+  homepage: /openfoam/
+
+  # Socials
+  social:
+    - icon: fontawesome/brands/gitkraken
+      link: https://github.com/ItsAymn
