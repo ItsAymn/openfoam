@@ -4,4 +4,8 @@
          <loc>https://sitename.example/</loc>
          <lastmod>2025-01-08</lastmod>
     </url>
+    <url>
+         <loc>https://sitename.example/Tutorials/symbols/</loc>
+         <lastmod>2025-01-08</lastmod>
+    </url>
 </urlset>
