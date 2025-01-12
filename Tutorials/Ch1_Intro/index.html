@@ -6,22 +6,22 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Tutorial section of this repo">
+        <meta name="description" content="Introduction to OpenFOAM">
       
       
         <meta name="author" content="ItsAymn">
       
       
-        <link rel="canonical" href="https://sitename.example/Tutorials/">
+        <link rel="canonical" href="https://sitename.example/Tutorials/Ch1_Intro/">
       
       
-        <link rel="prev" href="../Theory/symbols/">
+        <link rel="prev" href="../install/">
       
       
-        <link rel="next" href="admonitions/">
+        <link rel="next" href="../quickstart/">
       
       
-      <link rel="icon" href="../assets/images/OpenFOAM55x55.png">
+      <link rel="icon" href="../../assets/images/OpenFOAM55x55.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
     
     
@@ -30,10 +30,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6f8fc17f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/style.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/style.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     
     
 
-   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -71,7 +71,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tutorials" class="md-skip">
+        <a href="#introduction" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="/openfoam/" title="OpenFOAM Docs" class="md-header__button md-logo" aria-label="OpenFOAM Docs" data-md-component="logo">
       
-  <img src="../assets/images/OpenFOAM55x55.png" alt="logo">
+  <img src="../../assets/images/OpenFOAM55x55.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -230,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -249,7 +249,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../Theory/" class="md-tabs__link">
+        <a href="../../Theory/" class="md-tabs__link">
           
   
     
@@ -271,7 +271,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
     
@@ -291,7 +291,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../CaseStudies/" class="md-tabs__link">
+        <a href="../../CaseStudies/" class="md-tabs__link">
           
   
     
@@ -334,7 +334,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="/openfoam/" title="OpenFOAM Docs" class="md-nav__button md-logo" aria-label="OpenFOAM Docs" data-md-component="logo">
       
-  <img src="../assets/images/OpenFOAM55x55.png" alt="logo">
+  <img src="../../assets/images/OpenFOAM55x55.png" alt="logo">
 
     </a>
     OpenFOAM Docs
@@ -361,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -404,7 +404,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../Theory/" class="md-nav__link ">
+            <a href="../../Theory/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -437,7 +437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Theory/symbols/" class="md-nav__link">
+      <a href="../../Theory/symbols/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,7 +499,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -510,7 +510,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -532,7 +532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="admonitions/" class="md-nav__link">
+      <a href="../admonitions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -553,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="install/" class="md-nav__link">
+      <a href="../install/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -571,10 +571,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Ch1_Intro/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -583,6 +603,102 @@
   
 
       </a>
+      
+        <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine title -->
+
+
+  
+
+
+
+<!-- Table of contents -->
+<nav class="md-nav md-nav--secondary" aria-label="<b>Table Of Contents</b>">
+  
+
+  <!--
+    Check whether the content starts with a level 1 headline. If it does, the
+    top-level anchor must be skipped, since it would be redundant to the link
+    to the current page that is located just above the anchor. Therefore we
+    directly continue with the children of the anchor.
+  -->
+  
+  
+    
+  
+
+  <!-- Table of contents title and list -->
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      <b>Table Of Contents</b>
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-openfoam" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is OpenFOAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-plan-going-forwards" class="md-nav__link">
+    <span class="md-ellipsis">
+      The plan going forwards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Credits
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+    
+  
+</nav>
+</hr>
+<!-- Authors -->
+      
     </li>
   
 
@@ -595,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="quickstart/" class="md-nav__link">
+      <a href="../quickstart/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -646,7 +762,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../CaseStudies/" class="md-nav__link ">
+            <a href="../../CaseStudies/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -679,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../CaseStudies/Case_01/" class="md-nav__link">
+      <a href="../../CaseStudies/Case_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -764,9 +880,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#welcome-to-the-openfoam-tutorials-section" class="md-nav__link">
+  <a href="#what-is-openfoam" class="md-nav__link">
     <span class="md-ellipsis">
-      Welcome to the OpenFOAM Tutorials Section
+      What is OpenFOAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-plan-going-forwards" class="md-nav__link">
+    <span class="md-ellipsis">
+      The plan going forwards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Credits
     </span>
   </a>
   
@@ -790,7 +933,7 @@
                   
 
   
-    <a href="https://github.com/ItsAymn/openfoam/edit/main/docs/Tutorials/README.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/ItsAymn/openfoam/edit/main/docs/Tutorials/Ch1_Intro.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -798,11 +941,43 @@
   
 
 
-<div><h1 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">¶</a></h1>
+<div><h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">¶</a></h1>
+<p>What is OpenFOAM, how to get the most out of your workflow and the plan going forwards.</p>
 <hr/>
-<h2 id="welcome-to-the-openfoam-tutorials-section">Welcome to the OpenFOAM Tutorials Section<a class="headerlink" href="#welcome-to-the-openfoam-tutorials-section" title="Permanent link">¶</a></h2>
-<p>This section is essentially my docs and help guide for OpenFOAM, aimed at making getting into CFD and Linux as smoothly and pleasantly as possible (<em>T&amp;C’s Apply</em>)</p>
-<hr/></div>
+<h2 id="what-is-openfoam"><strong>What is OpenFOAM</strong><a class="headerlink" href="#what-is-openfoam" title="Permanent link">¶</a></h2>
+<p><strong>Open</strong> Source <strong>F</strong>ield <strong>O</strong>peration <strong>A</strong>nd <strong>M</strong>anipulation.</p>
+<p>OpenFOAM is a C++ library used to create and develop executables called <strong>applications</strong>. These applications fall into two categories:
+</p><pre class="mermaid"><code>flowchart LR
+    A(Applications) --&gt; B(Solvers);
+    A --&gt; C(Utilities)</code></pre>
+<strong>Solvers</strong> are designed to <strong>solve</strong> a specific problem in <strong>continuum mechanics</strong>, OpenFOAM does not have one generic solver applicable to all cases. Instead, <strong>a specific solver must be chosen</strong> for a class of problems to solve. Each solver has a unique and descriptive name. For some, namely <strong>incompressible solvers</strong>, it reflects the algorithm, eg. <code>simpleFoam</code> uses the SIMPLE algorithm, <code>pimpleFoam</code> uses the PIMPLE algorithm. More often the name reflects the <strong>physical models</strong> or <strong>type of problem</strong> it is designed to solve, eg. <code>icoFoam</code>, <code>simpleFoam</code>, <code>sonicFoam</code>. A list of all current solvers is available <a href="https://www.openfoam.com/documentation/user-guide/a-reference/a.1-standard-solvers">here</a>.
+<div class="admonition note">
+<p class="admonition-title">Solvers that come packaged with OpenFOAM are in the <code>$FOAM_SOLVERS</code> directory, quickly accessed by typing <code>app</code> at the command line. This directory is subdivided into several directories categorized by continuum mechanics.</p>
+</div>
+<p><strong>Utilities</strong> are designed to <strong>perform tasks</strong> involving data manipulation. Once again, the names are descriptive. And a list of all current utilities is available <a href="https://www.openfoam.com/documentation/user-guide/a-reference/a.2-standard-utilities">here</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Utilities that come packaged with OpenFOAM are in the <code>$FOAM_SUTILITIES</code> directory, quickly accessed by typing <code>util</code> at the command line. This directory is subdivided into several directories categorized loosely by worflow tasks.</p>
+</div>
+<p>All of that being said, it is more or less CFD on hard mode, but at the same time it is not a CFD solver.</p>
+<hr/>
+<h2 id="the-workflow"><strong>The Workflow</strong><a class="headerlink" href="#the-workflow" title="Permanent link">¶</a></h2>
+<p>CFD workflows in OpenFOAM, and by extension other CFD softwares, follow the general steps below;
+</p><pre class="mermaid"><code>flowchart LR
+    A(Case Setup) --&gt; B(Pre-process) --&gt; C(Process) --&gt; D(Post-process)</code></pre>
+<hr/>
+<h2 id="the-plan-going-forwards"><strong>The plan going forwards</strong><a class="headerlink" href="#the-plan-going-forwards" title="Permanent link">¶</a></h2>
+<p>Chapter 2 will cover the file structure of OpenFOAM and its cases along with <strong>syntax</strong> and <strong>file format</strong> requirements.</p>
+<p>Chapter 3 covers <strong>running</strong> OpenFOAM applications for <strong>serial</strong> and <strong>parallel</strong> operations.</p>
+<p>Chapter 4 covers <strong>Mesh generation</strong> using OpenFOAM utilities and <strong>conversion</strong> of mesh data generated by external software, ie. <strong>Blender</strong>.</p>
+<p>Chapter 5 provides details on the <strong>models</strong> provided by OpenFOAM, <strong>boundary conditions</strong>, <strong>thermophysical</strong> and <strong>turbulence</strong> models.</p>
+<p>Chapter 6 focuses on <strong>solving</strong> OpenFOAM cases, descriptions of <strong>numerical schemes</strong>, <strong>case control</strong> and <strong>solution monitoring</strong>.</p>
+<p>Chapter 7 deals with <strong>Post-processing</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Reference lists for the available solvers, utilities, libraires and boundary conditions are available on the OpenFOAM website under <a href="https://www.openfoam.com/documentation/user-guide/appendix-a">appendix A</a>.</p>
+</div>
+<h2 id="credits"><em>Credits</em><a class="headerlink" href="#credits" title="Permanent link">¶</a></h2>
+<p>OpenCFD Ltd (2025) <em>OpenFOAM</em>. Available at: <a href="https://www.openfoam.com">OpenFOAM</a> (Accessed: 12 January 2025)</p>
+<p>Many elements of this doc will be taken from the source above. Thus, this citation applies to the entirety of this doc.</p></div>
 
 
 
@@ -841,7 +1016,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Theory/symbols/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Symbols">
+          <a href="../install/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -851,20 +1026,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Symbols
+                Installation
               </div>
             </div>
           </a>
         
         
           
-          <a href="admonitions/" class="md-footer__link md-footer__link--next" aria-label="Next: Admonitions">
+          <a href="../quickstart/" class="md-footer__link md-footer__link--next" aria-label="Next: Quick Start">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Admonitions
+                Quick Start
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -917,12 +1092,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "navigation.footer", "announce.dismiss", "content.action.edit", "content.tooltips", "content.code.copy", "content.code.annotate", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.top", "navigation.footer", "announce.dismiss", "content.action.edit", "content.tooltips", "content.code.copy", "content.code.annotate", "toc.follow", "header.autohide"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "stable"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
       
-        <script src="../assets/javascripts/mathjax.js"></script>
+        <script src="../../assets/javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
