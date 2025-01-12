@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Section defines all the symbols/variables that will be used througout this doc. KEEP CONSISTENT.">
+        <meta name="description" content="Section for installing OpenFOAM">
       
       
         <meta name="author" content="ItsAymn">
       
       
-        <link rel="canonical" href="https://sitename.example/Tutorials/symbols/">
+        <link rel="canonical" href="https://sitename.example/Tutorials/install/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../admonitions/">
       
       
-        <link rel="next" href="../admonitions/">
+        <link rel="next" href="../quickstart/">
       
       
       <link rel="icon" href="../../assets/images/OpenFOAM55x55.png">
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#symbols" class="md-skip">
+        <a href="#installation" class="md-skip">
           Skip to content
         </a>
       
@@ -245,6 +245,26 @@
         
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Theory/" class="md-tabs__link">
+          
+  
+    
+  
+  Theory
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
     
   
   
@@ -358,6 +378,90 @@
       
   
   
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Theory/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Theory
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Theory
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/symbols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Symbols
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -388,7 +492,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
@@ -404,19 +508,40 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Tutorials
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admonitions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admonitions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -439,7 +564,7 @@
           
   
   <span class="md-ellipsis">
-    Symbols
+    Installation
   </span>
   
 
@@ -450,7 +575,7 @@
         
   
   <span class="md-ellipsis">
-    Symbols
+    Installation
   </span>
   
 
@@ -509,55 +634,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-variables" class="md-nav__link">
+  <a href="#openfoam-installation" class="md-nav__link">
     <span class="md-ellipsis">
-      General Variables
+      OpenFOAM Installation
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#geometry-and-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      Geometry and Mesh
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#numerical-methods" class="md-nav__link">
-    <span class="md-ellipsis">
-      Numerical Methods
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Numerical Methods">
+    <nav class="md-nav" aria-label="OpenFOAM Installation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#subscripts" class="md-nav__link">
+  <a href="#windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Subscripts
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#superscripts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Superscripts
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dimensionless-numbers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dimensionless Numbers
+      Windows
     </span>
   </a>
   
@@ -565,48 +654,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#physical-quantities-si-units" class="md-nav__link">
-    <span class="md-ellipsis">
-      Physical Quantities (SI units)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Physical Quantities (SI units)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dimensionless-numbers_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dimensionless Numbers
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#relational-symbols" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relational Symbols
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#credits" class="md-nav__link">
-    <span class="md-ellipsis">
-      Credits
-    </span>
-  </a>
   
 </li>
       
@@ -617,27 +664,6 @@
 </hr>
 <!-- Authors -->
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../admonitions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admonitions
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -696,7 +722,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           
@@ -712,14 +738,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             CaseStudies
           </label>
@@ -819,55 +845,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#general-variables" class="md-nav__link">
+  <a href="#openfoam-installation" class="md-nav__link">
     <span class="md-ellipsis">
-      General Variables
+      OpenFOAM Installation
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#geometry-and-mesh" class="md-nav__link">
-    <span class="md-ellipsis">
-      Geometry and Mesh
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#numerical-methods" class="md-nav__link">
-    <span class="md-ellipsis">
-      Numerical Methods
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Numerical Methods">
+    <nav class="md-nav" aria-label="OpenFOAM Installation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#subscripts" class="md-nav__link">
+  <a href="#windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Subscripts
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#superscripts" class="md-nav__link">
-    <span class="md-ellipsis">
-      Superscripts
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dimensionless-numbers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dimensionless Numbers
+      Windows
     </span>
   </a>
   
@@ -875,48 +865,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#physical-quantities-si-units" class="md-nav__link">
-    <span class="md-ellipsis">
-      Physical Quantities (SI units)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Physical Quantities (SI units)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dimensionless-numbers_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dimensionless Numbers
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#relational-symbols" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relational Symbols
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#credits" class="md-nav__link">
-    <span class="md-ellipsis">
-      Credits
-    </span>
-  </a>
   
 </li>
       
@@ -938,7 +886,7 @@
                   
 
   
-    <a href="https://github.com/ItsAymn/openfoam/edit/main/docs/Tutorials/symbols.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/ItsAymn/openfoam/edit/main/docs/Tutorials/install.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -946,77 +894,94 @@
   
 
 
-<div><h1 id="symbols">Symbols<a class="headerlink" href="#symbols" title="Permanent link">¶</a></h1>
-<p>List of symbols that will be referenced in <strong>Tutorials</strong> and <strong>Case Studies</strong>.</p>
+<div><h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h1>
+<p>A step-by-step walkthrough on installing OpenFOAM</p>
 <hr/>
-<h2 id="general-variables"><strong>General Variables</strong><a class="headerlink" href="#general-variables" title="Permanent link">¶</a></h2>
-<p><span class="arithmatex">\(q, s\)</span> <span class="arithmatex">\(~~~~~~~~~~~\)</span> Scalars <br/>
-<span class="arithmatex">\(\mathbf{a}, \mathbf{b}, \mathbf{c}\)</span> <span class="arithmatex">\(~~~~~~\)</span> Vectors <br/>
-<span class="arithmatex">\(\mathbf{S}, \mathbf{T}, \mathbf{Y}\)</span> <span class="arithmatex">\(~~~~\)</span> Tensors <br/>
-<span class="arithmatex">\(x, y, z\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Cartesian Coordinate System <br/>
-<span class="arithmatex">\(\mathbf{I}\)</span> <span class="arithmatex">\(~~~~~~~~~~~~~~~\)</span> Identity Tensor <br/>
-<span class="arithmatex">\(\mathbf{\Psi}\)</span> <span class="arithmatex">\(~~~~~~~~~~~~~\)</span> General Parameter: <strong>scalar</strong>, <strong>vector</strong> or <strong>tensor</strong> <br/></p>
-<hr/>
-<h2 id="geometry-and-mesh"><strong>Geometry and Mesh</strong><a class="headerlink" href="#geometry-and-mesh" title="Permanent link">¶</a></h2>
-<p><span class="arithmatex">\(\mathbf{C}\)</span> <span class="arithmatex">\(~~~~~~\)</span> Cell Centre <br/>
-<span class="arithmatex">\(\mathbf{C_f}\)</span> <span class="arithmatex">\(~~~~~\)</span> Face Centre <br/>
-<span class="arithmatex">\(\mathbf{n}\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Normal Vector of Unit Length <br/>
-<span class="arithmatex">\(\mathbf{p}\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Point Location <br/>
-<span class="arithmatex">\(S\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Surface <br/>
-<span class="arithmatex">\(V\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Volume <br/></p>
-<hr/>
-<h2 id="numerical-methods"><strong>Numerical Methods</strong><a class="headerlink" href="#numerical-methods" title="Permanent link">¶</a></h2>
-<p><span class="arithmatex">\([\mathbf{A}]\)</span> <span class="arithmatex">\(~~~~~~\)</span> Matrix of a Matrix Equation <span class="arithmatex">\([\mathbf{A}][\mathbf{\Psi}]=[\mathbf{B}]\)</span> <br/>
-<span class="arithmatex">\(\mathbf{A}\)</span> <span class="arithmatex">\(~~~~~~~~\)</span> Matrix of a Matrix Equation <span class="arithmatex">\(\mathbf{A} \cdot \mathbf{\Psi}=\mathbf{B}\)</span> <br/>
-<span class="arithmatex">\(a_{i,j}\)</span> <span class="arithmatex">\(~~~~~~\)</span> Matrix Coefficients for row <span class="arithmatex">\(i\)</span> and column <span class="arithmatex">\(j\)</span> <br/>
-<span class="arithmatex">\([\mathbf{b}]\)</span> <span class="arithmatex">\(~~~~~~~\)</span> Source Vector of a Matrix Equation <br/>
-<span class="arithmatex">\(\mathbf{b}\)</span> <span class="arithmatex">\(~~~~~~~~~\)</span> Source Vector of a Matrix Equation, above <br/>
-<span class="arithmatex">\(c\)</span> <span class="arithmatex">\(~~~~~~~~~~\)</span> Scalar Coefficients <br/>
-MORE TO ADD</p>
-<h3 id="subscripts">Subscripts<a class="headerlink" href="#subscripts" title="Permanent link">¶</a></h3>
-<p><span class="arithmatex">\(b\)</span> <span class="arithmatex">\(~~~~~~\)</span> Boundary Value/Gradient <br/>
-<span class="arithmatex">\(D\)</span> <span class="arithmatex">\(~~~~~\)</span> Downwind Interpolation <br/>
-<span class="arithmatex">\(ex\)</span> <span class="arithmatex">\(~~~~\)</span> Exact Solution <br/>
-<span class="arithmatex">\(f\)</span> <span class="arithmatex">\(~~~~~~\)</span> Values at Faces <br/>
-<span class="arithmatex">\(L\)</span> <span class="arithmatex">\(~~~~~~\)</span> Linear Interpolation, Lower Bound Value <br/>
-<span class="arithmatex">\(N\)</span> <span class="arithmatex">\(~~~~~\)</span> Neighbour Cell <br/>
-<span class="arithmatex">\(P\)</span> <span class="arithmatex">\(~~~~~~\)</span> Owner/Current Cell<br/>
-<span class="arithmatex">\(U\)</span> <span class="arithmatex">\(~~~~~~\)</span> Downwind Interpolation <br/></p>
-<h3 id="superscripts">Superscripts<a class="headerlink" href="#superscripts" title="Permanent link">¶</a></h3>
-<p><span class="arithmatex">\(c\)</span> <span class="arithmatex">\(~~~~~~\)</span> Current Stored Value <br/>
-<span class="arithmatex">\(n\)</span> <span class="arithmatex">\(~~~~~~\)</span> New Value <br/>
-<span class="arithmatex">\(o\)</span> <span class="arithmatex">\(~~~~~~\)</span> Old Time Level <br/>
-<span class="arithmatex">\(oo\)</span> <span class="arithmatex">\(~~~~\)</span> Old-Old Time Level <br/></p>
-<h3 id="dimensionless-numbers">Dimensionless Numbers<a class="headerlink" href="#dimensionless-numbers" title="Permanent link">¶</a></h3>
-<p><span class="arithmatex">\(Co\)</span> <span class="arithmatex">\(~~~~\)</span> Courant Number = <span class="arithmatex">\((\Delta t/{V})\Sigma_f \cdot \phi^+\)</span> <br/>
-<span class="arithmatex">\(Pe\)</span> <span class="arithmatex">\(~~~~\)</span> Peclet Number = <span class="arithmatex">\(\phi_f~/ (|\mathbf{S_f}|~\alpha_f~C_{\Delta})\)</span> <br/></p>
-<hr/>
-<h2 id="physical-quantities-si-units"><strong>Physical Quantities (SI units)</strong><a class="headerlink" href="#physical-quantities-si-units" title="Permanent link">¶</a></h2>
-<p><span class="arithmatex">\(\mathbf{b}\)</span> <span class="arithmatex">\(~~~~\)</span> Body Force per Unit Mass <span class="arithmatex">\((N \cdot kg^{-1})\)</span> <br/>
-MORE TO ADD</p>
-<h3 id="dimensionless-numbers_1">Dimensionless Numbers<a class="headerlink" href="#dimensionless-numbers_1" title="Permanent link">¶</a></h3>
-<p><span class="arithmatex">\(Eu\)</span> <span class="arithmatex">\(~~~~\)</span> Euler Number = <span class="arithmatex">\(p_0~/U^2\)</span> <br/>
-<span class="arithmatex">\(Fr\)</span> <span class="arithmatex">\(~~~~\)</span> Froude Number = <span class="arithmatex">\(U~/ \sqrt{gL}\)</span> <br/>
-<span class="arithmatex">\(Kn\)</span> <span class="arithmatex">\(~~~\)</span> Knudsen Number = <span class="arithmatex">\(\lambda~/ L\)</span> <br/>
-<span class="arithmatex">\(Ma\)</span> <span class="arithmatex">\(~~~\)</span> Mach Number = <span class="arithmatex">\(|\mathbf{u}|~/c\)</span> <br/>
-<span class="arithmatex">\(Pe\)</span> <span class="arithmatex">\(~~~~\)</span> Peclet Number = <span class="arithmatex">\(U L~/ \alpha\)</span> <br/>
-<span class="arithmatex">\(Pr\)</span> <span class="arithmatex">\(~~~~\)</span> Prandtl Number = <span class="arithmatex">\(\nu~/\alpha\)</span> <br/>
-<span class="arithmatex">\(Re\)</span> <span class="arithmatex">\(~~~~\)</span> Reynolds Number = <span class="arithmatex">\(U L~/ \nu\)</span> <br/>
-<span class="arithmatex">\(Re_\tau\)</span> <span class="arithmatex">\(~~~\)</span> Turbulent Reynolds Number = <span class="arithmatex">\(k^2~/ \epsilon\nu\)</span> <br/>
-<span class="arithmatex">\(Sc\)</span> <span class="arithmatex">\(~~~~\)</span> Schidt Number = <span class="arithmatex">\(\nu~/D\)</span> <br/>
-<span class="arithmatex">\(Sr\)</span> <span class="arithmatex">\(~~~~\)</span> Strouhal Number = <span class="arithmatex">\(L~/(\mathcal{T} U)\)</span> <br/></p>
-<hr/>
-<h2 id="relational-symbols"><strong>Relational Symbols</strong><a class="headerlink" href="#relational-symbols" title="Permanent link">¶</a></h2>
-<p><span class="arithmatex">\(a=b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> are equal<br/>
-<span class="arithmatex">\(a \approx b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> are approximately equal<br/>
-<span class="arithmatex">\(a \simeq b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> are almost exactly equal<br/>
-<span class="arithmatex">\(a \equiv b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span> are equivalent<br/>
-<span class="arithmatex">\(a:=b\)</span> <span class="arithmatex">\(~~~\)</span> <span class="arithmatex">\(a\)</span> is assigned the value of <span class="arithmatex">\(b\)</span><br/>
-<span class="arithmatex">\(a \propto b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> is proportional to <span class="arithmatex">\(b\)</span><br/>
-<span class="arithmatex">\(a \sim b\)</span> <span class="arithmatex">\(~~~~\)</span> <span class="arithmatex">\(a\)</span> is of the order of magnitude of <span class="arithmatex">\(b\)</span><br/></p>
-<hr/>
-<h2 id="credits"><em>Credits</em><a class="headerlink" href="#credits" title="Permanent link">¶</a></h2>
-<p>Weller, H. Greenshields C. (2022) Notes on Computational Fluid Dynamics: General Principles. Available at: <a href="https://doc.cfd.direct/notes/cfd-general-principles/symbols">CFD Direct, Notes on CFD</a> (Accessed: 09 January 2025)</p></div>
+<h2 id="openfoam-installation"><strong>OpenFOAM Installation</strong><a class="headerlink" href="#openfoam-installation" title="Permanent link">¶</a></h2>
+<p>OpenFOAM is available to install on <strong>MS-Windows</strong>, <strong>Linux</strong> and <strong>MacOS</strong>.</p>
+<h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">¶</a></h3>
+<p>There are three different ways to run OpenFOAM on MS-Windows (10 or newer). In their order of preference:</p>
+<ol>
+<li>
+<p><a href="https://learn.microsoft.com/en-gb/windows/wsl/install">WSL/WSL2</a>: Windows Subsystem Linux</p>
+<p>– Many OpenFOAM users prefer using WSL.</p>
+<p>– Provides maximum flexibilty.</p>
+<p>– The OpenFOAM Linux packages are kept more up-to-date than cross-compiled/Docker variants.</p>
+</li>
+<li>
+<p><em>Native Windows</em>: Cross-compiled Windows binaries (mingw)</p>
+<p>– Quick way to use OpenFOAM on Windows.</p>
+<p>– Does not currently include an OpenFOAM development environment.</p>
+</li>
+<li>
+<p><em>Docker Containers</em>: <a href="https://docs.docker.com/desktop/setup/install/windows-install/">docker-windows</a></p>
+<p>– Equivilant to the <strong>WSL/WSL2</strong> approach.</p>
+<p>– The entire OpenFOAM installation/workspace is managed as a container.</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Pick <strong>only one</strong> method</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="" id="__tabbed_1_1" name="__tabbed_1" type="radio"/><input id="__tabbed_1_2" name="__tabbed_1" type="radio"/><input id="__tabbed_1_3" name="__tabbed_1" type="radio"/><div class="tabbed-labels"><label for="__tabbed_1_1">WSL/WSL2</label><label for="__tabbed_1_2">Native Windows</label><label for="__tabbed_1_3">Docker Containers</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li><strong>Install WSL/WSL2</strong>: The <a href="https://learn.microsoft.com/en-gb/windows/wsl/install">WSL information from Windows</a> provides installation anf configuration information for WSL.</li>
+<li>
+<p><strong>Choose and install a Linux Distro</strong>: Choose a distro such as <em>Ubuntu</em> or <em>openSUSE</em> that recieves regualar OpenFOAM updates.</p>
+<div class="admonition tip">
+<p class="admonition-title">For new users I recommend using <strong>Ubuntu</strong> here</p>
+</div>
+</li>
+<li>
+<p><strong>Install OpenFOAM</strong>: Follow the regular installation/update instructions for <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/debian">Ubuntu</a> or <a href="https://develop.openfoam.com/Development/openfoam/-/wikis/precompiled/suse"> openSUSE</a></p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">OpenFOAM requires a case sensitive file system to build. If you build OpenFOAM from a location outside of the WSL/WSL2 partition (eg. a mounted drive, <code>/mnt/c/Users/some/path</code>) this will cause issues. There are two possible solutions to deal with this.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="" id="__tabbed_2_1" name="__tabbed_2" type="radio"/><input id="__tabbed_2_2" name="__tabbed_2" type="radio"/><div class="tabbed-labels"><label for="__tabbed_2_1">Build in the partition</label><label for="__tabbed_2_2">Create a case sensitive folder</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>– Build OpenFOAM <strong>within</strong> the WSL/WSL2 partition. This partition is case sensitive.</p>
+</div>
+<div class="tabbed-block">
+<p>Create a <a href="https://learn.microsoft.com/en-us/windows/wsl/case-sensitivity"> case sensitive folder</a> within the <strong>Windows Partition</strong> and build OpenFOAM there. As outlined below:</p>
+<ol>
+<li>Create a new folder within Windows (eg, <code>../Documents/OpenFOAM</code>). <strong>Folder must be empty for the nest step.</strong></li>
+<li>Enable case sensitivity for this folder using <code>fsutil.exe</code>. This is done by running <code>fsutil.exe file setCaseSensitiveInfo &lt;path/to/folder&gt; enable</code> in an elevated PowerShell session.</li>
+<li>From inside the WSL/WSL2 environment/terminal, unpack the <strong>OpenFOAM-vXXXX.tgz</strong>/<strong>ThirdParty-vXXXX.tgz</strong> files or clone the Git Repos within this folder.</li>
+<li>Build OpenFOAM.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">There is no need to use WSL/WSL2 to download <strong>Paraview</strong>, use the Windows version of <a href="https://www.paraview.org/download/">ParaView</a></p>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="language-powershell highlight"><pre><span></span><code><span id="__span-0-1"><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">$</span> <span class="nb">cd </span><span class="nv">$FOAM_TUTORIALS</span><span class="p">/</span><span class="n">incompressible</span><span class="p">/</span><span class="n">simpleFoam</span><span class="p">/</span><span class="n">pitzDaily</span><span class="p">/</span>
+</span><span id="__span-0-2"><a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">$</span> <span class="nb">ls </span><span class="n">-p</span>
+</span><span id="__span-0-4"><a href="#__codelineno-0-4" id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="n">0</span><span class="p">/</span>  <span class="n">constant</span><span class="p">/</span>  <span class="n">system</span><span class="p">/</span>
+</span><span id="__span-0-5"><a href="#__codelineno-0-5" id="__codelineno-0-5" name="__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a href="#__codelineno-0-6" id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="p">$</span> <span class="nb">ls </span><span class="n">-p</span> <span class="n">system</span><span class="p">/</span>
+</span><span id="__span-0-7"><a href="#__codelineno-0-7" id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="n">blockMeshDict</span>  <span class="n">controlDict</span>  <span class="n">fvSchemes</span>  <span class="n">fvSolution</span>  <span class="n">streamlines</span>
+</span><span id="__span-0-8"><a href="#__codelineno-0-8" id="__codelineno-0-8" name="__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a href="#__codelineno-0-9" id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="p">$</span> <span class="nb">ls </span><span class="n">-p</span> <span class="n">constant</span><span class="p">/</span>
+</span><span id="__span-0-10"><a href="#__codelineno-0-10" id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="n">transportProperties</span>  <span class="n">turbulenceProperties</span>
+</span><span id="__span-0-11"><a href="#__codelineno-0-11" id="__codelineno-0-11" name="__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a href="#__codelineno-0-12" id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="p">$</span> <span class="nb">ls </span><span class="n">-p</span> <span class="n">0</span><span class="p">/</span>
+</span><span id="__span-0-13"><a href="#__codelineno-0-13" id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="n">epsilon</span>  <span class="n">k</span>  <span class="n">p</span>  <span class="n">U</span>
+</span></code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>TEST<span class="w"> </span>ON<span class="w"> </span>LINUX<span class="w"> </span>THEN<span class="w"> </span>ADD
+</span></code></pre></div>
+</div>
+</div>
+</div></div>
 
 
 
@@ -1055,7 +1020,7 @@ MORE TO ADD</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tutorials">
+          <a href="../admonitions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Admonitions">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1065,20 +1030,20 @@ MORE TO ADD</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Tutorials
+                Admonitions
               </div>
             </div>
           </a>
         
         
           
-          <a href="../admonitions/" class="md-footer__link md-footer__link--next" aria-label="Next: Admonitions">
+          <a href="../quickstart/" class="md-footer__link md-footer__link--next" aria-label="Next: Quick Start">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Admonitions
+                Quick Start
               </div>
             </div>
             <div class="md-footer__button md-icon">
