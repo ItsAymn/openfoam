@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sitename.example/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/CaseStudies/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/CaseStudies/Case_01/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Theory/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Theory/symbols/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/Ch1_Intro/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/Ch2_FOAMCases/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/Tutorials/Ch3_RunningApps/</loc>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/admonitions/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/install/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/Tutorials/quickstart/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-01-16</lastmod>
     </url>
 </urlset>
